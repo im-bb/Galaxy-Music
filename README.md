@@ -107,5 +107,8 @@ Fork the repo and edit as per your needs.
 
 - [Laky-64](https://github.com/Laky-64) for [py-tgcalls](https://github.com/pytgcalls/pytgcalls)
 - [Dan](https://github.com/delivrance) for [Pyrogram](https://github.com/pyrogram/pyrogram)
-
+- [Hi-Tec-Robot](https://github.com/Hi-Tec-Robot)
+- [im-bb](https://github.com/im-bb)
+- [ThilinaWeerasekara2003](https://github.com/ThilinaWeerasekara2003)
+  
 
