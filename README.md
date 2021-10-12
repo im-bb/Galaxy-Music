@@ -1,7 +1,7 @@
 # Galaxy Music 🎵
 
 <p align="center">
-  <img src"https://telegra.ph/file/be46f2bbedd0fd130c4ca.jpg"
+  <img src="https://telegra.ph/file/be46f2bbedd0fd130c4ca.jpg" width='600"'>
 </p>
 
 ![GitHub Repo stars](https://img.shields.io/github/stars/subinps/VCPlayerBot?color=blue&style=flat)
