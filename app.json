@@ -1,5 +1,6 @@
 {
     "name": "Galaxy Music",
+      "logo": "https://telegra.ph/file/bfc2594e3bdea728f410e.jpg",
     "description": "Telegram bot to stream video in telegram VC",
     "repository": "https://github.com/Hi-Tec-Robot/Galaxy-Music",
     "stack": "container",
