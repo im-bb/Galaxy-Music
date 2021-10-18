@@ -1,5 +1,5 @@
 # Galaxy Music 🎵
-Powerd by [ ★彡 𝙂𝙖𝙡𝙖𝙭𝙮 𝙇𝙖𝙣𝙠𝙖 ••• ـــ٨ـہہـ♡ـ٨ـــ 🇱🇰 ](https://t.me/GalaxyLanka)
+Powerd by [ ★彡 𝙂𝙖𝙡𝙖𝙭𝙮 𝙇𝙖𝙣𝙠𝙖 ••• ـــ٨ـہہـ♡ـ٨ـــ🇱�� ](https://t.me/GalaxyLanka)
 <p align="center">
   <img src="https://telegra.ph/file/be46f2bbedd0fd130c4ca.jpg" width='600"'>
 </p>
