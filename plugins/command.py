@@ -52,8 +52,9 @@ from pyrogram import (
 IST = pytz.timezone(Config.TIME_ZONE)
 if Config.DATABASE_URI:
     from utils import db
-
-HOME_TEXT = "<b>Hey  [{}](tg://user?id={}) 🙋‍♂️\n\nIam A Bot Built To Play or Stream Videos In Telegram VoiceChats.\nI Can Stream Any YouTube Video Or A Telegram File Or Even A YouTube Live.Powered By [GalaxyLanka(t.me/GalaxyLanka)] </b>"
+    
+HOME_STIKER ="CAACAgEAAx0CXkJoZwABAUiQYX8BN07JzeIvBdnSnnpz4reRossAAoEBAALY_nBHgP8n4pyF6FUhBA"
+HOME_TEXT = "<b>Hey  [{}](tg://user?id={}) 🙋‍♂️\n\nIam A Bot Built To Play or Stream Videos In Telegram VoiceChats.\nI Can Stream Any YouTube Video Or A Telegram File Or Even A YouTube Live.Powered By <a href='t.me/GalaxyLanka'>GalaxyLanka</a>.</b>"
 admin_filter=filters.create(is_admin) 
 
 @Client.on_message(filters.command(['start', f"start@{Config.BOT_USERNAME}"]))
@@ -138,7 +139,7 @@ async def start(client, message):
         ]
     ]
     reply_markup = InlineKeyboardMarkup(buttons)
-    k = await message.reply(HOME_TEXT.format(message.from_user.first_name, message.from_user.id), reply_markup=reply_markup)
+    k = await message.reply(HOME_TEXT,HOME_STICKER.format(message.from_user.first_name, message.from_user.id), reply_markup=reply_markup)
     await delete_messages([message, k])
 
 
