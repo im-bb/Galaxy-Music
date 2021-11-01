@@ -54,7 +54,7 @@ if Config.DATABASE_URI:
     from utils import db
     
 HOME_STICKER = "CAACAgEAAx0CXkJoZwABAUiQYX8BN07JzeIvBdnSnnpz4reRossAAoEBAALY_nBHgP8n4pyF6FUhBA"
-HOME_TEXT = "<b>Hey {message.from_user.first_name} 🙋‍♂️\n\nIam A Bot Built To Play or Stream Videos In Telegram VoiceChats.\nI Can Stream Any YouTube Video Or A Telegram File Or Even A YouTube Live.Powered By [Galaxy Lanka](t.me/galaxylanka).</b>,disable_web_page_preview=True"
+HOME_TEXT = "<b>Hey 🙋‍♂️\n\nIam A Bot Built To Play or Stream Videos In Telegram VoiceChats.\nI Can Stream Any YouTube Video Or A Telegram File Or Even A YouTube Live.Powered By [Galaxy Lanka](t.me/galaxylanka),disable_web_page_preview=True</b>"
 admin_filter=filters.create(is_admin) 
 
 @Client.on_message(filters.command(['start', f"start@{Config.BOT_USERNAME}"]))
